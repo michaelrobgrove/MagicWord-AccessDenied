@@ -24,14 +24,14 @@ Modern browsers (Chrome, Safari, Edge) block audio from playing automatically. T
 
 ### 1. Host it (You are here)
 This repo is hosted via GitHub Pages.
-* **Live URL:** `https://[YOUR-USERNAME].github.io/access-denied/`
+* **Live URL:** [`https://magicword-accessdenied.pages.dev/`
 
 ### 2. Configure Nginx Proxy Manager
 This project is designed to be the "Default Site" for Nginx Proxy Manager (NPM).
 
 1.  Go to **NPM Dashboard** > **Settings** > **Default Site**.
 2.  Select **Redirect**.
-3.  **Forward Host:** `https://[YOUR-USERNAME].github.io/access-denied/`
+3.  **Forward Host:** `https://magicword-accessdenied.pages.dev/`
 4.  **Preserve Path:** `OFF` (Unchecked).
 5.  **Save.**
 
@@ -40,8 +40,8 @@ Now, anyone hitting your raw IP or an unknown domain gets sent to the park.
 ## 📂 Files
 
 * `index.html` - The trap interface and logic.
-* `magic_word.mp3` - The audio payload (Ah, ah, ah!).
-* `nedry.gif` - The visual payload.
+* `magic-word.mp3` - The audio payload (Ah, ah, ah!).
+* `magic-word.gif` - The visual payload.
 
 ## ⚠️ Disclaimer
 
